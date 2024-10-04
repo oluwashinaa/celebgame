@@ -17,16 +17,16 @@ $(document).ready(function () {
 
 
 
-        if (questions === "black" && food === "garri" && hair === "multi" && music === "trench" && color === "black" && movie === "horror") {
-            $("#head").slideUp();
-            $("#results1").show();
-            $("#results2").hide();
-            $("#results3").hide();
-            $("#results4").hide();
-            $("#results5").hide();
-            $("#results6").hide();
-            $("#results7").hide();
-        }
+        // if (questions === "black" && food === "garri" && hair === "multi" && music === "trench" && color === "black" && movie === "horror") {
+        //     $("#head").slideUp();
+        //     $("#results1").show();
+        //     $("#results2").hide();
+        //     $("#results3").hide();
+        //     $("#results4").hide();
+        //     $("#results5").hide();
+        //     $("#results6").hide();
+        //     $("#results7").hide();
+        // }
 
 
       else if  (questions === "green" && food === "pizza" && hair === "brown" && music === "afro" && color === "yellow" && movie === "romance") {
