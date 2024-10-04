@@ -1,0 +1,320 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+.radio-box{
+
+    width: 40%;
+    border: 2px solid rgb(160, 54, 160);
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10%;
+    font-size: 13px;
+}
+
+.question-image{
+    background-image: url(../img/eyes.jpg);
+    background-size: cover;
+    height: 150px;
+    margin-bottom: 20px;
+    border-radius: 15%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.question-image2{
+    background-image: url(../img/food.avif);
+    background-size: cover;
+    height: 150px;
+    margin-bottom: 20px;
+    border-radius: 10%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.question-image3{
+    background-image: url(../img/hair.jpg);
+    background-size: cover;
+    height: 150px;
+    margin-bottom: 20px;
+    border-radius: 15%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.question-image4{
+    background-image: url(../img/music.avif);
+    background-size: cover;
+    height: 150px;
+    margin-bottom: 20px;
+    border-radius: 10%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.question-image5{
+    background-image: url(../img/colorz.jpg);
+    background-size: cover;
+    height: 150px;
+    margin-bottom: 20px;
+    border-radius: 15%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.question-image6{
+    background-image: url(../img/view-3d-people-cinema-with-popcorn_23-2150720850.avif);
+    background-size: cover;
+    height: 150px;
+    margin-bottom: 20px;
+    border-radius: 15%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+body{
+    background-image: url(../img/8782364.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.question{
+    border: 2px solid black;
+    box-shadow: 0 0 10px rgba(0, 0,0);
+    width: 30%;
+    margin-top: 20px;
+    padding: 15px;
+    text-align: center;
+    border-radius: 10%;
+    background-image: url(../img/christmas-decorative-composition-toys-white-table-background-top-view-flat-lay.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+
+.radio-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.eye{
+    border-radius: 10%;
+    
+}
+.great{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    gap: 25px;
+}
+
+#match{
+    background-color: #7f52d1;
+    color: white;
+    border-radius: 50%;
+   margin-top: 5%;
+
+    padding: 10px;
+    font-weight: bold;
+}
+.celeb{
+    display: none;
+    opacity: 0;
+    animation: 6s fade-in linear forwards;
+}
+
+.port{
+    width: 35%;
+    border: 2px solid black;
+    border-radius: 10%;
+    box-shadow: 0 0 10px black;
+  text-align: center;
+  color:#7f52d1;
+  justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+    padding: 15px;
+    font-family: "Poppins", sans-serif
+}
+
+@keyframes fade-in {
+  to {opacity: 1;}
+}
+
+.portable{
+width: 50%;
+display: flex;
+justify-content: center;
+align-items: center;
+margin: auto;
+ backdrop-filter: blur(1000px)
+}
+
+.mega{
+   border: 2px solid black;
+    width: 40%;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+  text-align: center;
+    color:#7f52d1;
+    border-radius: 10%;
+    padding: 10px;
+    font-family: "Poppins", sans-serif;
+    box-shadow: 0 0 10px black;
+
+}
+
+@keyframes fade-in {
+    to {opacity: 1;}
+  }
+
+.stallion{
+   width: 30%;
+    background-color: #ff63474d;
+    color: white;
+    border-radius: 20%;
+    margin:  auto 35%;
+  justify-content: center;
+  align-items: center;
+    padding: 10px;
+
+}
+
+.james{
+    border: 2px solid black;
+    width: 40%;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+  text-align: center;
+    color:#7f52d1;
+    border-radius: 10%;
+    padding: 10px;
+    font-family: "Poppins", sans-serif;
+    box-shadow: 0 0 10px black;
+
+}
+
+@keyframes fade-in {
+    to {opacity: 1;}
+  }
+
+
+.brown{
+  width: 30%;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.temz{
+    border: 2px solid black;
+    width: 30%;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+  text-align: center;
+    color:#7f52d1;
+    border-radius: 10%;
+    padding: 10px;
+    font-family: "Poppins", sans-serif;
+    box-shadow: 0 0 10px black;
+}
+
+@keyframes fade-in {
+    to {opacity: 1;}
+}
+
+.termz{
+   width: 50%; 
+    padding: 10px;
+    font-weight: bold;
+    font-family: "Poppins", sans-serif;
+}
+
+.adeleke{
+    border: 2px solid black;
+    width: 30%;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+  text-align: center;
+    color:#7f52d1;
+    border-radius: 10%;
+    padding: 10px;
+    font-family: "Poppins", sans-serif;
+    box-shadow: 0 0 10px black;
+}
+
+
+@keyframes fade-in {
+    to {opacity: 1;}
+}
+
+.davido{
+    width: 50%;
+display: flex;
+justify-content: center;
+align-items: center;
+margin: auto;
+}
+
+.wurld{
+    border: 2px solid black;
+    width: 30%;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+  text-align: center;
+    color:#7f52d1;
+    border-radius: 10%;
+    padding: 10px;
+    font-family: "Poppins", sans-serif;
+    box-shadow: 0 0 10px black;
+}
+
+@keyframes fade-in {
+    to {opacity: 1;}
+}
+
+.wurldz{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.ayra{
+    border: 2px solid black;
+    width: 30%;
+    justify-content: center;
+    align-items: center;
+    margin: 10px auto;
+  text-align: center;
+    color:#7f52d1;
+    border-radius: 10%;
+    padding: 10px;
+    font-family: "Poppins", sans-serif;
+    box-shadow: 0 0 10px black; 
+}
+
+@keyframes fade-in {
+    to {opacity: 1;}
+}
+
+.star{
+    width: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+

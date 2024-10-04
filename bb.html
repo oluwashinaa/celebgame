@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/game.css">
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="js/script.js"></script>
+    <title>Celebrity Match</title>
+</head>
+
+<body>
+
+    <section class="container great" id="head">
+        <div class="container d-flex justify-content-center align-items-center text-white">
+            <h1>Find Your Celebrity Match!!</h1>
+        </div>
+
+        <div class="question">
+            <h2>What's Your Celebrity Eye Color</h2>
+            <div class="question-image">
+
+            </div>
+            <div class="radio-container">
+                <div class="radio-box">
+                    <input type="radio" name="questions" value="black">
+                    <label for=""><b>Black</b></label>
+                </div>
+
+                <div class="radio-box">
+                    <input type="radio" name="questions" value="green">
+                    <label for=""> <b>Green</b></label>
+                </div>
+
+                <div class="radio-box">
+                    <input type="radio" name="questions" value="brown">
+                    <label for=""><b>Brown</b></label>
+                </div>
+
+                <div class="radio-box">
+                    <input type="radio" name="questions" value="grey">
+                    <label for=""><b>Grey</b></label>
+                </div>
+
+            </div>
+        </div>
+
+
+
+        <div class="question">
+            <h2>What's Your Celebrity Favorite Food</h2>
+            <div class="question-image2">
+
+            </div>
+            <div class="radio-container">
+                <div class="radio-box">
+                    <input type="radio" name="food" value="rice">
+                    <label for=""><b>Rice</b></label>
+                </div>
+
+                <div class="radio-box">
+                    <input type="radio" name="food" value="amala">
+                    <label for=""> <b>Amala</b></label>
+                </div>
+
+                <div class="radio-box">
+                    <input type="radio" name="food" value="pizza">
+                    <label for=""><b>Pizza</b></label>
+                </div>
+
+                <div class="radio-box">
+                    <input type="radio" name="food" value="garri">
+                    <label for=""><b>Garri</b></label>
+                </div>
+
+            </div>
+        </div>
+
+
+        <div class="question">
+            <h2>What's Your Celebrity Hair Color</h2>
+            <div class="question-image3">
+
+            </div>
+            <div class="radio-container">
+                <div class="radio-box">
+                    <input type="radio" name="hair" value="black">
+                    <label for=""><b>Black</b></label>
+                </div>
+
+                <div class="radio-box">
+                    <input type="radio" name="hair" value="brown">
+                    <label for=""> <b>Brown</b></label>
+                </div>
+
+                <div class="radio-box">
+                    <input type="radio" name="hair" value="multi">
+                    <label for=""><b>Multi</b></label>
+                </div>
+
+                <div class="radio-box">
+                    <input type="radio" name="hair" value="grey">
+                    <label for=""><b>Grey</b></label>
+                </div>
+
+            </div>
+        </div>
+
+
+
+        <div class="question">
+            <h2>What's Your Celebrity Best Music</h2>
+            <div class="question-image4">
+
+            </div>
+            <div class="radio-container">
+                <div class="radio-box">
+                    <input type="radio" name="music" value="afro">
+                    <label for=""><b>Afro</b></label>
+                </div>
+
+                <div class="radio-box">
+                    <input type="radio" name="music" value="hip">
+                    <label for=""> <b>Hip-pop</b></label>
+                </div>
+
+                <div class="radio-box">
+                    <input type="radio" name="music" value="trench">
+                    <label for=""><b>Trench</b></label>
+                </div>
+
+                <div class="radio-box">
+                    <input type="radio" name="music" value="beat">
+                    <label for=""><b>Beats</b></label>
+                </div>
+
+            </div>
+        </div>
+
+
+
+
+
+        <div class="question">
+            <h2>What's Your Celebrity Favorite Color</h2>
+            <div class="question-image5">
+
+            </div>
+            <div class="radio-container">
+                <div class="radio-box">
+                    <input type="radio" name="color" value="black">
+                    <label for=""><b>Black</b></label>
+                </div>
+
+                <div class="radio-box">
+                    <input type="radio" name="color" value="green">
+                    <label for=""> <b>Green</b></label>
+                </div>
+
+                <div class="radio-box">
+                    <input type="radio" name="color" value="yellow">
+                    <label for=""><b>Yellow</b></label>
+                </div>
+
+                <div class="radio-box">
+                    <input type="radio" name="color" value="blue">
+                    <label for=""><b>Blue</b></label>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="question">
+            <h2>What's Your Celebrity Favorite Movie</h2>
+            <div class="question-image6">
+
+            </div>
+            <div class="radio-container">
+                <div class="radio-box">
+                    <input type="radio" name="movie" value="horror">
+                    <label for=""><b>Horror</b></label>
+                </div>
+
+                <div class="radio-box">
+                    <input type="radio" name="movie" value="romance">
+                    <label for=""> <b>Romance</b></label>
+                </div>
+
+                <div class="radio-box">
+                    <input type="radio" name="movie" value="adven">
+                    <label for=""><b>Adventure</b></label>
+                </div>
+
+                <div class="radio-box">
+                    <input type="radio" name="movie" value="mystery">
+                    <label for=""><b>Mystery</b></label>
+                </div>
+
+            </div>
+        </div>
+
+        <a href="#results">
+            <button id="match">My Match </button>
+        </a>
+
+
+    </section>
+
+
+
+    <div id="results">
+        <section class="port celeb" id="results1">
+            <h2>Congratulation Meet Your Match!!</h2>
+            <div>
+                <img src="img/portable.jpg" class="portable">
+                <p><b>
+                        Portable, born on March 12, 1994, in Abeokuta, Ogun State, Nigeria, is a Nigerian musician who
+                        gained mainstream recognition through his hit single "ZaZoo Zehh." He grew up in Abeokuta but
+                        later
+                        moved to Sango-Ota, a city in Ogun State near Lagos. His rise in the music industry has been
+                        attributed to his unique style and viral hits
+                    </b></p>
+            </div>
+        </section>
+
+        <section id="results2" class="mega celeb">
+            <h2>Congratulation Meet Your Match!!</h2>
+            <div>
+                <img src="img/attachment-Megan-Thee-Stallion-.jpg" alt="" class="stallion">
+                <p>
+                    <b>
+                        Megan Thee Stallion is an American rapper, singer, and songwriter who rose to prominence in the
+                        2010s as part of a growing cohort of women in hip-hop. She became the first female rapper signed
+                        to
+                        300 Entertainment in 2018. Her breakout single, “Big Ole Freak,” was notable for being the first
+                        of
+                        her tracks to reach the Billboard Hot 100, peaking at a notable position. Megan is recognized
+                        for
+                        her bold lyrics and has made history by performing at prestigious events, solidifying her
+                        influence
+                        in the music industry.
+                    </b>
+                </p>
+            </div>
+        </section>
+        <section id="results3" class="james celeb">
+            <h2>Congratulation Meet Your Match!!</h2>
+            <div>
+                <img src="img/jamebrown.jpeg" alt="" class="brown">
+                <p>
+                    <b>
+                        James Chukwueze Obialor, widely known as James Brown, is a Nigerian internet personality,
+                        dancer,
+                        and cross-dresser, born on February 22, 1999. His rise to fame began when he gained
+                        significant
+                        attention after being arrested by the Nigerian police for alleged homosexuality, an
+                        accusation
+                        he
+                        denied. Brown's unique style and presence on social media have made him a prominent figure
+                        in
+                        Nigerian pop culture, where he actively engages his audience through various content,
+                        including
+                        dancing and acting. He has also positioned himself as a brand influencer, showcasing his
+                        versatility
+                        and creativity in entertainment
+                    </b>
+                </p>
+            </div>
+        </section>
+        <section id="results4" class="temz celeb">
+            <h2>Congratulation Meet Your Match!!</h2>
+            <div>
+                <img src="img/Tems-.jpg" alt="" class="termz">
+                <p>
+                    <b>
+                        Temilade Openiyi, known professionally as Tems, was born on June 11, 1995, in Lagos,
+                        Nigeria.
+                        She
+                        began her musical journey singing in her church choir and gained recognition for her talent
+                        in
+                        2009.
+                        In early 2018, inspired by a message from her daily devotional, she decided to leave her job
+                        as
+                        a
+                        digital marketer to pursue music full-time. Tems has since established herself as a
+                        prominent
+                        singer
+                        and songwriter in Nigeria, known for her unique sound and contributions to the music
+                        industry.
+                    </b>
+                </p>
+            </div>
+        </section>
+        <section id="results5" class="adeleke celeb">
+            <h2>Congratulation Meet Your Match!!</h2>
+            <div>
+                <img src="img/david-adeleke-davido.webp" alt="" class="davido">
+                <p>
+                    <b>
+                        Davido, a prominent Nigerian musician, was born on November 21 1992 in Atlanta, which makes
+                        him
+                        31
+                        years old as of now. United States, but he was raised in Lagos, Nigeria. He made his music
+                        debut
+                        as
+                        part of the group KB International. Davido later pursued a successful solo career, becoming
+                        one
+                        of
+                        Africa's biggest music stars. He studied business administration at Oakwood University in
+                        the
+                        U.S.
+                        and is known for blending Afrobeats with various music genres, gaining international
+                        recognition
+                    </b>
+                </p>
+            </div>
+        </section>
+        <section id="results6" class="wurld celeb">
+            <h2>Congratulation Meet Your Match!!</h2>
+            <div>
+                <img src="img/wurld.avif" alt="" class="wurldz">
+                <p>
+                    <b>
+                        WurlD,whose real name is Sadiq Onifade,was born 37 years 2 January 1987 in Lagos Nigeria,
+                        later
+                        moved to Atlanta, Georgia, to pursue music and education. He is known for his unique
+                        electro-fusion
+                        music style, blending elements of different genres. While residing in the US, he became a
+                        prolific
+                        songwriter, creating music for various artists and making a name for himself in the Atlanta
+                        music
+                        scene. His background in Mushin, Lagos, placed him at the heart of vibrant Nollywood
+                        culture,
+                        influencing his artistic expression.
+                    </b>
+                </p>
+            </div>
+        </section>
+        <section id="results7" class="ayra celeb">
+            <h2>Congratulation Meet Your Match!!</h2>
+            <div></div>
+            <img src="img/ayrastar.jpg" alt="" class="star">
+            <p>
+                <b>
+                    Oyinkansola Sarah Aderibigbe (born 14 June 2002), known professionally as Ayra Starr, is a
+                    Nigerian
+                    singer and songwriter.In early 2021, Starr achieved mainstream recognition with her eponymous
+                    debut
+                    extended play and its hit track "Away", which spent two consecutive weeks at number four on
+                    Nigeria's
+                    TurnTable Top 50 chart; the song also peaked at number 17 on the Billboard Top Triller Global
+                    chart,
+                    paving the way for the release of her first full-length album, 19 & Dangerous (2021).
+                    Categorized
+                    mainly
+                    as Afropop and R&B, the mixtape received favorable critical reception and spawned two top forty
+                    hits
+                    in
+                    Nigeria.
+                </b>
+            </p>
+        </section>
+    </div>
+</body>
+
+</html>

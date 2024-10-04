@@ -1,0 +1,38 @@
+
+
+.father a {
+    text-decoration: none;
+    gap: 30px;
+
+
+}
+
+.father {
+
+    padding: 6px;
+}
+
+.bar {
+    gap: 30px;
+}
+
+.second {
+
+    margin-top: 17%;
+    padding: 14px;
+    text-align: center;
+    color: rgb(255, 255, 216);
+    font-weight: bolder;
+
+}
+
+.second h2 {
+    font-size: 50px;
+}
+
+.great {
+    background-image: url(../img/side-view-woman-posing-with-confetti\ \(2\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
