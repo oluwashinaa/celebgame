@@ -17,8 +17,7 @@
 }
 
 .second {
-
-    margin-top: 17%;
+   margin-top: 17%;
     padding: 14px;
     text-align: center;
     color: rgb(255, 255, 216);
@@ -36,3 +35,34 @@
     background-size: cover;
     height: 100vh;
 }
+
+@media (max-width: 366px)  {
+    .second{
+        margin-top: 100%;
+    }
+}
+@media (min-width: 367px){
+    .second{
+        margin-top: 100%;
+    }
+}
+@media (min-width: 500px){
+    .second{
+        margin-top: 80%;
+    }
+}
+@media (min-width: 700px){
+    .second{
+        margin-top: 60%;
+    }
+}
+@media (min-width: 1000px){
+    .second{
+        margin-top: 30%;
+    }
+}
+@media (min-width: 1366px){
+    .second{
+        margin-top: 17% ;
+    }
+} 

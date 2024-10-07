@@ -113,11 +113,21 @@ body{
     gap: 25px;
 }
 
+.match{
+
+ 
+    width: 10vw;
+    margin:20px auto;
+    
+}
+
 #match{
     background-color: #7f52d1;
     color: white;
-    border-radius: 50%;
-   margin-top: 5%;
+   
+    border-radius: 10%;
+
+  
 
     padding: 10px;
     font-weight: bold;
@@ -317,4 +327,34 @@ margin: auto;
     align-items: center;
     margin: auto;
 }
-
+ 
+@media (max-width: 366px)  {
+    .question{
+        width: 90%;
+    }
+}
+@media (min-width: 367px){
+    .question{
+        width: 75%;
+    }
+}
+@media (min-width: 500px){
+    .second{
+        margin-top: 80%;
+    }
+} 
+@media (min-width: 700px){
+    .question{
+        width: 55%;
+    }
+}
+@media (min-width: 1000px){
+    .question{
+        width:35% ;
+    }
+}
+@media (min-width: 1366px){
+    .question{
+        width: 30%;
+    }
+} 
